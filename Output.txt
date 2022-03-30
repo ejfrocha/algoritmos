@@ -1,0 +1,18 @@
+Saída do algoritmo, com as medidas de tempo
+
+For num.10.1.in with #10
+Insertion = -5.000001692678779e-06 & Selection = -2.5600002118153498e-05 | Difference of 2.0600000425474718e-05:
+For num.1000.1.in with #1000
+Insertion = -0.026939499999571126 & Selection = -0.026184099999227328 | Difference of -0.0007554000003437977:
+For num.1000.2.in with #1000
+Insertion = -0.025550199999997858 & Selection = -0.02529349999895203 | Difference of -0.0002567000010458287:
+For num.1000.3.in with #1000
+Insertion = -0.02568020000035176 & Selection = -0.025470200002018828 | Difference of -0.0002099999983329326:
+For num.1000.4.in with #1000
+Insertion = -0.02433519999976852 & Selection = -0.024378199999773642 | Difference of 4.3000000005122274e-05:
+For num.10000.1.in with #10000
+Insertion = -2.878606199999922 & Selection = -2.639596300003177 | Difference of -0.23900989999674493:
+For num.10000.2.in with #10000
+Insertion = -2.9799945000013395 & Selection = -2.7329510999988997 | Difference of -0.24704340000243974:
+For num.10000.3.in with #10000
+Insertion = -3.0190153999974427 & Selection = -2.860700099998212 | Difference of -0.15831529999923077:
