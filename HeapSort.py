@@ -1,4 +1,4 @@
-# Definição do algoritmo HeapSorte em Python
+# Definição do algoritmo HeapSort em Python
 
 # Max-Heapify é uma rotina recorrente que garante que um Heap Binário cumpra a propriedade de Heap-Máximo.
 # Onde A é o Heap Array, n é o tamanho do Heap e i é o elemento raiz atual do Heap
@@ -30,7 +30,7 @@ def heapSort(A):
 	for i in range(n // 2 - 1, -1, -1): # operação // para divisão sem resto (piso), iniciando no último nó "não-folha" e decaindo -1 até a posição -1
 		MaxHeapify(A, n, i) # roda o algoritmo de forma recorrente, tornando o array um HeapMáximo
 
-	# Extração dos elementos um a um, jogando o maior elemento para o fim do array e decrescendo o tamanho do escopo (i) dentro do MaxHeapify
+	# Extração dos elementos um a um, jogando o maior elemento para o fim do array e decrescendo o tamanho do escopo (i) e rodando o MaxHeapify
 	for i in range(n-1, 0, -1):
 		A[i], A[0] = A[0], A[i] # swap
 		MaxHeapify(A, i, 0) # executa sempre com 1 elemento a menos, que já foi ordenado
